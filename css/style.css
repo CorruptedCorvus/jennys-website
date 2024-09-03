@@ -1,0 +1,54 @@
+
+
+body {
+    font-family: "Dancing Script", cursive;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.nav-item{
+
+    display:flex;
+}
+
+.navbar {
+    background-image: url("paper.gif")
+    background-color: rgb(104, 132, 110) ;
+    padding: 30px !important;
+
+}
+
+.title-h1 {
+    text-align:center;
+    font-size: 2rem;
+}
+
+.container {
+ display: grid;
+ grid-template-columns: 30% 60%;
+ background-color: rgb(155, 180, 164);
+ column-gap: 5%;
+
+
+
+}
+
+
+
+.sidebar {
+
+    background-color: #b48995;
+    padding:10px;
+}
+
+
+.box {
+
+    background-color: #ffeeef;
+    padding: 30px;
+    height: 45vh;
+    margin: 10px;
+}
+
